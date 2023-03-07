@@ -1,13 +1,15 @@
 <template>
   <div id="app">
+    <ItemSelectView/>
   </div>
 </template>
 
 <script>
 
+import ItemSelectView from "@/views/ItemSelectView";
 export default {
   name: 'App',
-  components: {}
+  components: {ItemSelectView}
 }
 </script>
 
